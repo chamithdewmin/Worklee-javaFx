@@ -1,0 +1,43 @@
+.login_container {
+    -fx-background-color: #2c2638;
+}
+
+.main_text {
+    -fx-text-fill: #ffff;
+    -fx-font-size: 45;
+    -fx-font-weight: bold;
+}
+
+.username_box {
+    -fx-background-color: #3c364c;
+    -fx-background-radius: 5;
+    -fx-text-fill: #ffff;
+    -fx-prompt-text-fill: "Username";
+}
+
+.password_box {
+    -fx-background-color: #3c364c;
+    -fx-background-radius: 5;
+    -fx-text-fill: #ffff;
+    -fx-prompt-text-fill: "Password";
+}
+
+.error_label {
+    -fx-text-fill: #ff0000;
+}
+
+.singup_button {
+    -fx-background-radius: 5;
+    -fx-background-color: #6d54b5;
+    -fx-text-fill: #ffff;
+}
+
+.noaccount_label {
+    -fx-text-fill: #ffff;
+}
+
+.rounded_image {
+    -fx-background-radius: 15;
+    -fx-clip-radius: 15;
+}
+

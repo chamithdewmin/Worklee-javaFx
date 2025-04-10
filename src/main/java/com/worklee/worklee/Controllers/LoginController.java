@@ -1,0 +1,12 @@
+package com.worklee.worklee.Controllers;
+
+import javafx.scene.control.*;
+
+public class LoginController {
+    public PasswordField password_Field;
+    public TextField username_Field;
+    public Button singIn_button;
+    public Label error_label;
+    public Hyperlink forgotPassword_link;
+    public Hyperlink singUp_link;
+}

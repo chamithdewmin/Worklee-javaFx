@@ -19,7 +19,7 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>21</version>
+            <version>22</version>
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
@@ -73,6 +73,14 @@
             <artifactId>pdfbox</artifactId>
             <version>2.0.28</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.webjars/font-awesome -->
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>font-awesome</artifactId>
+            <version>6.5.2</version>
+        </dependency>
+
     </dependencies>
 
     <build>
