@@ -1,0 +1,24 @@
+.main_text {
+    -fx-text-fill: #ffff;
+    -fx-font-size: 30px;
+}
+
+.password_box {
+    -fx-background-color: #3c364c;
+    -fx-background-radius: 5;
+    -fx-text-fill: #ffff;
+    -fx-prompt-text-fill: "Password";
+}
+.passwordCom_box {
+    -fx-background-color: #3c364c;
+    -fx-background-radius: 5;
+    -fx-text-fill: #ffff;
+    -fx-prompt-text-fill: "Password";
+}
+
+.email_box {
+    -fx-background-color: #3c364c;
+    -fx-background-radius: 5;
+    -fx-text-fill: #ffff;
+    -fx-prompt-text-fill: "Email";
+}

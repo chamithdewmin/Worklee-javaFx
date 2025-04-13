@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="540.0" prefWidth="828.0" styleClass="login_container" stylesheets="@../Styles/login.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.worklee.worklee.Controllers.RegisterController">
+    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="22.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true" />
+    <ImageView fitHeight="507.0" fitWidth="349.0" layoutX="14.0" layoutY="17.0" styleClass="rounded_image">
+        <Image url="@../Images/mac-os-mojave-5k-np-1280x2120.png" />
+    </ImageView>
+    <TextField fx:id="username_Field" layoutX="438.0" layoutY="144.0" prefHeight="42.0" prefWidth="327.0" promptText="Username" styleClass="username_box" />
+    <Button fx:id="singUp_button" layoutX="470.0" layoutY="417.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="264.0" styleClass="singup_button" text="Sing Up" />
+    <Label layoutX="445.0" layoutY="62.0" prefHeight="42.0" prefWidth="335.0" styleClass="main_text" stylesheets="@../Styles/Register.css" text="Welcome to Worklee!" />
+    <Label fx:id="error_label" layoutX="590.0" layoutY="330.0" styleClass="error_label" />
+    <Label layoutX="489.0" layoutY="487.0" styleClass="noaccount_label" text="Already have an account ?   |" />
+    <Hyperlink fx:id="singIn_link" layoutX="647.0" layoutY="484.0" text="SIng in" />
+   <TextField fx:id="email_field" layoutX="438.0" layoutY="209.0" prefHeight="42.0" prefWidth="327.0" promptText="Email" styleClass="email_box" stylesheets="@../Styles/Register.css" />
+   <PasswordField fx:id="password_field" layoutX="438.0" layoutY="274.0" prefHeight="42.0" prefWidth="327.0" promptText="Password" styleClass="password_box" />
+   <PasswordField fx:id="comfirmPassword_field" layoutX="438.0" layoutY="339.0" prefHeight="42.0" prefWidth="327.0" promptText="Confirm Password" styleClass="passwordCom_box" stylesheets="@../Styles/Register.css" />
+</AnchorPane>
