@@ -1,0 +1,21 @@
+
+.menu_container{
+    -fx-background-color: #ffffff;
+}
+
+.button {
+    -fx-background-color: #6d54b5;
+    -fx-text-fill: #ffff;
+    -fx-font-size: 15;
+    -fx-font-weight: 10;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #5944a3;
+    -fx-text-fill: #ffffff;
+}
+
+.icon {
+    -fx-text-fill: #ffffff;
+}
