@@ -9,5 +9,5 @@ public class LoginController {
     public Label error_label;
     public Label SIngUp_label;
     public Label forgot_label;
-
+    public CheckBox password_chk;
 }

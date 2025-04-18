@@ -35,4 +35,11 @@ public class ViewFactory {
         //resetState();
     }
 
+    public void showRegisterWindow(){
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/Fxml/Register.fxml"));
+        createStage(loader);
+
+        //resetState();
+    }
+
 }

@@ -24,6 +24,7 @@
 
 .error_label {
     -fx-text-fill: #ff0000;
+    -fx-font-size: 1.2em;
 }
 
 .singup_button {
@@ -64,6 +65,12 @@
 .forgotLable:hover {
     -fx-text-fill: #5944a3;
 }
+
+.password_chk {
+    -fx-text-fill: #ffffff;
+    -fx-cursor: hand;
+}
+
 
 
 
