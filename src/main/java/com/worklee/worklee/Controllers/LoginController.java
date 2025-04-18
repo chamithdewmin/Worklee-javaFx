@@ -7,6 +7,12 @@ public class LoginController {
     public TextField username_Field;
     public Button singIn_button;
     public Label error_label;
-    public Hyperlink forgotPassword_link;
-    public Hyperlink singUp_link;
+    public Label SIngUp_label;
+    public Label forgot_label;
+
+
+
+
+
+
 }

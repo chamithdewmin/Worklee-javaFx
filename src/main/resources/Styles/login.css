@@ -41,3 +41,11 @@
     -fx-clip-radius: 15;
 }
 
+.singupLable {
+    -fx-text-fill: #1596c8;
+}
+
+.forgotLable {
+    -fx-text-fill: #1596c8;
+}
+
