@@ -7,20 +7,19 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 
-<AnchorPane prefHeight="800.0" prefWidth="200.0" styleClass="menu_container" stylesheets="@../Styles/Menu.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.worklee.worklee.Controllers.MenuController">
-   <children>
-      <Button layoutX="16.0" layoutY="197.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="169.0" text="Clients" />
-      <ImageView fitHeight="92.0" fitWidth="184.0" layoutX="9.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../Images/logo.png" />
-         </image>
-      </ImageView>
-      <Button layoutX="16.0" layoutY="263.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="169.0" text="Tasks" />
-      <Button layoutX="16.0" layoutY="132.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="169.0" text="Home" />
-      <Button layoutX="16.0" layoutY="467.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="169.0" text="Report" />
-      <Button layoutX="16.0" layoutY="400.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="169.0" text="Invoice" />
-      <Button layoutX="16.0" layoutY="331.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="169.0" text="Service Catalog" />
-      <Button layoutX="16.0" layoutY="536.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="169.0" text="Settings" />
-      <Icon content="HOME" layoutX="32.0" layoutY="140.0" prefHeight="26.0" prefWidth="33.0" styleClass="icon" />
-   </children>
+<AnchorPane prefHeight="800.0" prefWidth="200.0" styleClass="menu_container" stylesheets="@../Styles/Menu.css"
+            xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.worklee.worklee.Controllers.MenuController">
+   <Button layoutX="16.0" layoutY="197.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="169.0" text="Clients"/>
+   <ImageView fitHeight="92.0" fitWidth="184.0" layoutX="9.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../Images/logo.png"/>
+   </ImageView>
+   <Button layoutX="16.0" layoutY="263.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="169.0" text="Tasks"/>
+   <Button layoutX="16.0" layoutY="132.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="169.0" text="Home"/>
+   <Button layoutX="16.0" layoutY="467.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="169.0" text="Report"/>
+   <Button layoutX="16.0" layoutY="400.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="169.0" text="Invoice"/>
+   <Button layoutX="16.0" layoutY="331.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="169.0"
+           text="Service Catalog"/>
+   <Button layoutX="16.0" layoutY="536.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="169.0" text="Settings"/>
+   <Icon content="HOME" layoutX="32.0" layoutY="140.0" prefHeight="26.0" prefWidth="33.0" styleClass="icon"/>
 </AnchorPane>

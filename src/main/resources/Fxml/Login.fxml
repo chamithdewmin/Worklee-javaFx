@@ -19,6 +19,6 @@
     <Label layoutX="448.0" layoutY="62.0" styleClass="main_text" text="Welcome Back!" />
    <Label fx:id="error_label" layoutX="590.0" layoutY="330.0" styleClass="error_label" />
    <Label layoutX="500.0" layoutY="474.0" styleClass="noaccount_label" text="Don't have an account ?   |" />
-   <Label fx:id="SIngUp_label" layoutX="666.0" layoutY="474.0" styleClass="singupLable" stylesheets="@../Styles/login.css" text="Sing Up" />
+   <Label fx:id="SIngUp_label" layoutX="660.0" layoutY="474.0" styleClass="singupLable" stylesheets="@../Styles/login.css" text="Sing Up" />
    <Label fx:id="forgot_label" layoutX="552.0" layoutY="437.0" styleClass="forgotLable" text="Forgot password ?" />
 </AnchorPane>

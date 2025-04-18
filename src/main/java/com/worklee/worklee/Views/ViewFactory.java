@@ -22,9 +22,9 @@ public class ViewFactory {
         }
         Stage stage = new Stage();
         stage.setScene(scene);
-        stage.getIcons().add(new Image(String.valueOf(getClass().getResource("/Images/logo.png"))));
+        stage.getIcons().add(new Image(String.valueOf(getClass().getResource("/Images/logo2.png"))));
         stage.setResizable(false);
-        stage.setTitle("PayLink Bank");
+        stage.setTitle("Worklee");
         stage.show();
     }
 

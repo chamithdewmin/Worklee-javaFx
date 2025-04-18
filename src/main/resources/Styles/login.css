@@ -30,6 +30,12 @@
     -fx-background-radius: 5;
     -fx-background-color: #6d54b5;
     -fx-text-fill: #ffff;
+    -fx-cursor: hand;
+}
+
+.singup_button:hover {
+    -fx-background-color: #5944a3;
+    -fx-text-fill: #ffffff;
 }
 
 .noaccount_label {
@@ -43,9 +49,21 @@
 
 .singupLable {
     -fx-text-fill: #1596c8;
+    -fx-cursor: hand;
+}
+
+.singupLable:hover {
+    -fx-text-fill: #5944a3;
 }
 
 .forgotLable {
     -fx-text-fill: #1596c8;
+    -fx-cursor: hand;
 }
+
+.forgotLable:hover {
+    -fx-text-fill: #5944a3;
+}
+
+
 

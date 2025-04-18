@@ -10,9 +10,4 @@ public class LoginController {
     public Label SIngUp_label;
     public Label forgot_label;
 
-
-
-
-
-
 }
